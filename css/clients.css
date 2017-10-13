@@ -1,0 +1,53 @@
+.container-clients {
+	padding-top: 85px;
+}
+
+.section-heading-clients {
+	padding-bottom: 80px;
+}
+
+.review {
+	display: flex;
+	padding-bottom: 50px;
+}
+
+.client,
+.speech {
+	width: 50%;
+}
+
+.client {
+	text-align: right;
+	padding-right: 80px;
+}
+
+.speech p {
+	max-width: 520px;
+}
+
+.client-name,
+.client-position {
+	display: block;
+}
+
+.clients-photo {
+	display: flex;
+	justify-content: space-between;
+}
+
+.clients-photo,
+.clients-photo-item,
+.clients-photo-image {
+	width: 100%;
+}
+
+.clients-photo-item {
+	padding: 0 10px;
+	transition: all .3s ease-in-out;
+}
+
+.clients-photo-item:hover {
+	opacity: .8;
+	filter: sepia(65%);
+	cursor: pointer;
+}

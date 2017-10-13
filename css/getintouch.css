@@ -1,0 +1,112 @@
+.get-in-touch {
+	background-color: #000;
+	color: #fff;
+}
+
+.container-get-in-touch {
+	padding-top: 90px;
+	padding-bottom: 90px;
+}
+
+.contact {
+	display: flex;
+	justify-content: space-between;
+}
+
+.contact-info,
+.form {
+	width: 50%;
+}
+
+.contact-info {
+	padding-right: 90px;
+	padding-top: 20px;
+}
+
+.social-item {
+	display: inline-block;
+}
+
+.social-link {
+	display: block;
+	width: 40px;
+	height: 40px;
+	margin-right: 20px;
+}
+
+.facebook {
+	background: url("../images/social.png") no-repeat 0% 0%;
+}
+
+.twitter {
+	background: url("../images/social.png") no-repeat 25% 0%;
+}
+
+.google {
+	background: url("../images/social.png") no-repeat 50% 0%;
+}
+
+.pinterest {
+	background: url("../images/social.png") no-repeat 75% 0%;
+}
+
+.instagram {
+	background: url("../images/social.png") no-repeat 100% 0%;
+}
+
+
+.social span {
+	font-size: 0;
+}
+
+.social-link:hover {
+	filter: invert(100%);
+}
+
+.input-name,
+.input-email,
+.input-message {
+	display: block;
+	outline: none;
+	border: none; 
+	border-bottom: 1px solid #bbb;
+	background-color: #000;
+	width: 463px;
+	height: 50px;
+	margin-bottom: 20px;
+	color: #fff;
+	font-family: "Montserrat", sans-serif;
+	text-transform: lowercase;
+	font-size: 18px;
+	line-height: 27px;
+}
+
+.input-message {
+	height: 100px;
+	margin-bottom: 35px;
+	border-top: 1px solid #bbb;
+	padding: 20px 0;
+}
+
+.input-submit {
+	background-color: #fff;
+	color: #000;
+	height: 50px;
+	border-radius: 25px;
+	text-align: center;
+	padding: 10px 50px 12px;
+	border: none; 
+}
+
+.input-name:focus,
+.input-email:focus,
+.input-message:focus {
+	border-bottom: 1px solid var(--beige);
+	color: var(--beige);
+	font-weight: 100;
+	outline: none;
+}
+
+.input-message:focus {
+	border-top: 1px solid var(--beige);
+}

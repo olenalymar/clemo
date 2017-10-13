@@ -1,0 +1,55 @@
+.container-our-best-work {
+	text-align: center;
+	padding-bottom: 50px;
+}
+
+.works {
+	display: grid;
+	grid-template-columns: repeat(3, 33.33%);
+	width: 100%;
+	padding-bottom: 50px;
+}
+
+.works-items {
+	width: 100%;
+	transition: all .3s ease-in-out;
+}
+
+.works-items:hover {
+	opacity: .8;
+	filter: sepia(65%);
+}
+
+.works-img {
+	width: 100%;
+}
+
+.work1 {
+	grid-row-start: 1;
+	grid-row-end: 3;
+}
+
+.work2 {
+	grid-row-start: 1;
+	grid-row-end: 4;
+}
+
+.work3 {
+	grid-row-start: 1;
+	grid-row-end: 3;
+}
+
+.work4 {
+	grid-row-start: 3;
+	grid-row-end: 6;
+}
+
+.work5 {
+	grid-row-start: 4;
+	grid-row-end: 6;
+}
+
+.work6 {
+	grid-row-start: 3;
+	grid-row-end: 6;
+}

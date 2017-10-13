@@ -1,0 +1,287 @@
+.logo,
+.heading,
+.nav-link,
+.professionals,
+.button,
+.section-heading,
+.article {
+	font-family: "Montserrat", sans-serif;
+	text-transform: lowercase;
+}
+
+.logo {
+	font-size: 30px;
+	font-weight: bold;
+	transition: transform .2s ease-in-out;
+}
+
+.logo:hover {
+	transform: scale(1.2);
+}
+
+.heading {
+	color: var(--black);
+	text-align: center;
+	font-size: 50px;
+}
+
+.heading::after {
+	content: "";
+	display: block;
+	height: 2px;
+	width: 55px;
+	margin: 20px auto 35px;
+	background-color: #000;
+}
+
+.navigation {
+	color: #989898;
+}
+
+
+.nav-item {
+	transition: all .1s ease-in-out;
+}
+
+.nav-item:hover {
+	transform: scale(1.2);
+}
+
+.nav-link:hover {
+	color: var(--beige);
+
+}
+
+
+.professionals {
+	text-align: center;
+	font-size: 25px;
+	display: block;
+	margin: 0 auto;
+	width: 365px;
+	padding-bottom: 70px;
+}
+
+.button {
+	height: 50px;
+	border-radius: 25px;
+	text-align: center;
+	color: var(--white);
+}
+
+.connect {
+	background-color: var(--black);
+	padding: 15px 35px 18px;
+	border-radius: 27px;
+	transition: all .4s ease-in-out;
+}
+
+.connect:hover {
+	background-color: transparent;
+	color: var(--black);
+	box-shadow: 0 0 40px #000;
+}
+
+.learn {
+	color: var(--black);
+	border: 1px solid #ccc;
+	padding: 10px 27px 12px;
+	transition: all .2s ease-in-out;
+}
+
+.learn:hover {
+	background-color: #000;
+	color: #fff;
+	border-color: #000;
+}
+
+.learn-work {
+	background-color: var(--black);
+	padding: 10px 27px 12px;
+	transition: all .4s ease-in-out;
+}
+
+.learn-work:hover {
+	background-color: transparent;
+	color: var(--black);
+	box-shadow: 0 0 40px #000;
+}
+
+.section-heading {
+	font-size: 60px;
+	line-height: 48px;
+	font-weight: 100;
+	text-align: center;
+	padding-bottom: 100px;
+}
+
+.article-heading {
+	font-style: 30px;
+	font-weight: 400;
+}
+
+.article-heading span {
+	font-size: 48px;
+	font-weight: 700;
+	display: block;
+}
+
+.article-heading::after {
+	content: "";
+	display: block;
+	height: 2px;
+	width: 55px;
+	margin: 20px 0;
+	background-color: #000;
+}
+
+.article p,
+.speech {
+	padding-bottom: 25px;
+	font-style: 18px;
+	line-height: 27px;
+	font-weight: 300;
+	color: #656565;
+}
+
+.article p:last-child {
+	padding-bottom: 40px;
+}
+
+.team-name,
+.client-name {
+	font-size: 40px;
+	font-weight: 700;
+}
+
+.team-position,
+.client-position {
+	font-size: 18px;
+	font-weight: 300;
+}
+
+.client-name::after {
+	content: "";
+	display: block;
+	height: 2px;
+	width: 55px;
+	margin-left: auto;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	background-color: #000;
+}
+
+.contact-info {
+	font-size: 18px;
+	line-height: 27px;
+	font-weight: 300;
+}
+
+.address,
+.phonenumber,
+.contact-email {
+	padding-bottom: 40px;
+	position: relative;
+	padding-left: 37px;
+}
+
+.address::before {
+	content: url("../images/pin.png");
+	position: absolute;
+	top: 2px;
+	left: 0;
+}
+
+.phonenumber::before {
+	content: url("../images/iphone.png");
+	position: absolute;
+	top: 2px;
+	left: 0;
+}
+
+.contact-email::before {
+	content: url("../images/envelope.png");
+	position: absolute;
+	top: 2px;
+	left: 0;
+}
+
+.input-submit {
+	font-family: "Montserrat", sans-serif;
+	text-transform: lowercase;
+	font-size: 18px;
+	transition: all .2s ease-in-out;
+}
+
+.input-submit:hover {
+	background-color: #000;
+	color: #fff;
+	box-shadow: 0 0 20px #fff;
+	cursor: pointer;
+}
+
+.input-submit:focus {
+	outline: none;
+	box-shadow: 0 0 20px #fff;
+}
+
+::-webkit-input-placeholder {
+	color: #fff;
+	font-family: "Montserrat", sans-serif;
+	text-transform: lowercase;
+	font-size: 18px;
+	line-height: 27px;
+	font-weight: 100;
+	padding-bottom: 20px;
+}
+
+label {
+	display: block;
+	color: #fff;
+	font-family: "Montserrat", sans-serif;
+	text-transform: lowercase;
+	font-size: 18px;
+	line-height: 27px;
+	font-weight: 100;
+	padding-bottom: 20px;
+}
+
+::-moz-input-placeholder {
+	color: #fff;
+	font-family: "Montserrat", sans-serif;
+	text-transform: lowercase;
+	font-size: 18px;
+	line-height: 27px;
+	font-weight: 100;
+	padding-bottom: 20px;
+}
+
+:-moz-placeholder {
+	color: #fff;
+	font-family: "Montserrat", sans-serif;
+	text-transform: lowercase;
+	font-size: 18px;
+	line-height: 27px;
+	font-weight: 100;
+	padding-bottom: 20px;
+}
+
+:-ms-input-placeholder {
+	color: #fff;
+	font-family: "Montserrat", sans-serif;
+	text-transform: lowercase;
+	font-size: 18px;
+	line-height: 27px;
+	font-weight: 100;
+	padding-bottom: 20px;
+}
+
+input::placeholder {
+	color: #fff;
+	font-family: "Montserrat", sans-serif;
+	text-transform: lowercase;
+	font-size: 18px;
+	line-height: 27px;
+	font-weight: 100;
+	padding-bottom: 20px;
+}

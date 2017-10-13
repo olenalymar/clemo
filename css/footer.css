@@ -1,0 +1,14 @@
+.footer {
+	background-color: #f8f8f8;
+	padding: 20px 100px;
+	text-align: center;
+	line-height: 24px;
+}
+
+.copy {
+	font-weight: bold;
+}
+
+.rights {
+	font-weight: 300;
+}

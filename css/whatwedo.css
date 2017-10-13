@@ -1,0 +1,35 @@
+.container-what-we-do {
+	padding-top: 85px;
+	padding-bottom: 20px;
+}
+
+.what-we-do-article {
+	display: flex;
+	padding-bottom: 90px;
+}
+
+.img-right {
+	order: 1;
+}
+
+.imgholder,
+.article {
+	width: 50%;
+}
+
+.article {
+	padding-left: 97px;
+}
+
+.article-left {
+	padding-left: 0;
+	padding-right: 97px; 
+}
+
+.article-img {
+	width: 100%;
+}
+
+
+
+

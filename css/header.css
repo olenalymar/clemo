@@ -1,0 +1,58 @@
+.container-header {
+	padding-top: 31px;
+}
+
+.menu {
+	display: flex;
+	justify-content: space-between;
+	padding-bottom: 72px;
+}
+
+.nav-item {
+	display: inline-block;
+}
+
+.navigation {
+	list-style-type: none; 
+	padding-top: 7px;
+}
+
+.nav-item {
+	margin-left: 31px;
+}
+
+
+.container-greeting {
+	padding-top: 100px;
+	padding-bottom: 100px;
+	display: flex;
+}
+
+.main-greeting {
+	width: 96%;
+}
+
+.header-dots {
+	display: block;
+	width: 4%;
+	padding-top: 100px;
+}
+
+li.dots-item-header {
+	display: block;
+	margin: 10px;
+}
+
+.greeting {	
+	background: #ffe1bd url(../images/people.jpg) no-repeat top center;
+	text-align: center;
+	min-height: 515px;
+}
+
+
+
+
+
+
+
+

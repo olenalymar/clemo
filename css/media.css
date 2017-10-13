@@ -1,0 +1,24 @@
+@media  only screen and (max-width: 650px) {
+	.menu {
+		display: block;
+		margin: 0 auto;
+		width: 200px;
+		text-align: center;
+		padding-bottom: 20px;
+	}
+
+	.logo {
+		display: block;
+		padding-bottom: 50px;
+	}
+
+	.navigation {
+		display: block;
+	}
+
+	.nav-item {
+		display: block;
+		padding-bottom: 30px;
+		margin: 0 auto;
+	}
+}
