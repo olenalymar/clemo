@@ -1,0 +1,101 @@
+.slick-dots {
+	position: absolute;
+	bottom: -100px;
+	display: block;
+	width: 100%;
+	/*padding-bottom: 50px;*/
+	margin: 0;
+	list-style: none;
+	text-align: center;
+}
+
+.slick-dots li {
+	position: relative;
+	display: inline-block;
+	width: 15px;
+	height: 20px;
+	margin: 0 5px;
+	padding: 0;
+	cursor: pointer;
+}
+
+
+.slick-dots li button {
+	font-size: 0;
+	line-height: 0;
+	display: block;
+	width: 15px;
+	height: 20px;
+	padding: 5px;
+	cursor: pointer;
+	color: transparent;
+	outline: none;
+	background: transparent;
+	opacity: 1;
+}
+
+.slick-dots li button::before {
+	display: block;
+	width: 12px;
+	height: 12px;
+	border-radius: 50%;
+	border: 1px solid #000;
+	margin: 5px;
+	font-family: serif;
+	opacity: 1;
+	content: "";
+}
+
+.slick-dots li.slick-active button::before {
+	background-color: #000;
+}
+
+
+.header .slick-dots {
+	bottom: 40px;
+}
+
+.team .slick-dots {
+	bottom: -40px;
+}
+
+
+/*arrows*/
+
+.slick-prev {
+    left: -60px;
+}
+
+.slick-next {
+    right: -60px;
+}
+
+.slick-prev::before
+{
+    content: url("../images/arrow-left-black.png");
+    opacity: 1;
+}
+
+
+.slick-next::before
+{
+    content: url("../images/arrow-right-black.png");
+    opacity: 1;
+}
+
+
+.slick-prev:hover:before,
+.slick-prev:focus:before,
+.slick-next:hover:before,
+.slick-next:focus:before
+{
+    filter: invert();
+}
+
+
+
+.header .slick-dots li {
+	display: block;
+	bottom: 170px;
+	left: 1090px;
+}
