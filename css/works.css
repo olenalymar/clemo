@@ -6,6 +6,7 @@
 .works {
 	display: grid;
 	grid-template-columns: repeat(3, 33.33%);
+	grid-gap: 10px;
 	width: 100%;
 	padding-bottom: 50px;
 }

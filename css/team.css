@@ -62,13 +62,13 @@
 
 .team-slider {
 	display: flex;
-	justify-content: space-between;
+	justify-content: center;
 }
 
 .team-list {
 	display: flex;
 	justify-content: space-around;
-	width: 1008px;
+	width: 80%;
 }
 
 .team-item {
