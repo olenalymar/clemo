@@ -40,7 +40,7 @@ li.dots-item-header {
 }
 
 .bggreeting {
-	width: 1148px;
+	max-width: 1148px;
 	margin: 0 auto;
 }
 
