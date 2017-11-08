@@ -19,8 +19,35 @@ $('.carousel-team').slick({
     dots: true,
     slidesToShow: 3,
     slidesToScroll: 3,
-    // autoplay: true,
-    // autoplaySpeed: 2000,
-    infinite: true,
-    speed: 700
+    responsive: [
+    {
+      breakpoint: 1023,
+      settings: {
+        slidesToShow: 2,
+        slidesToScroll: 2,
+      }
+    },
+    {
+      breakpoint: 680,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1,
+      }
+    }
+  ]
   });
+
+
+
+
+//scrolling
+
+$('nav a').on('click', function(event) {
+ event.preventDefault();
+ var id = $(this).attr('href')
+ $('html, body')
+   .stop()
+   .animate({
+     scrollTop: $(id).offset().top
+   });
+});
